@@ -7,19 +7,10 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
-require("js/jquery.min.js")
-require("js/jquery-migrate-3.0.1.min.js")
-require("js/popper.min.js")
-require("js/bootstrap.min.js")
-require("js/jquery.easing.1.3.js")
-require("js/jquery.waypoints.min.js")
-require("js/jquery.stellar.min.js")
-require("js/owl.carousel.min.js")
-require("js/jquery.magnific-popup.min.js")
-require("js/aos.js")
-require("js/jquery.animateNumber.min.js")
-require("js/scrollax.min.js")
-require("js/main.js")
+
+
+import 'bootstrap'
+import './stylesheets/Application.scss'
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
