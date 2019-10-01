@@ -1,4 +1,3 @@
-
 var google;
 
 function init() {
@@ -57,6 +56,10 @@ function init() {
 
         });
     }
-    
 }
-google.maps.event.addDomListener(window, 'load', init);
+
+// This is a quick fix, but if you are going to use the map, fix the 
+// init logic. (The code as is won't work as expected.)
+if (google) {
+	google.maps.event.addDomListener(window, 'load', init);
+}
